@@ -1,15 +1,13 @@
 summation = (a, b) => {
-if (a + b === a + b){
+    a = a || 0;
+    b = b || 0;
     return a + b;
-} else 
-    return 0;
 };
 
     
 
 subtraction = (a, b) => {
-if ( a + b === a + b){
+    a = a || 0;
+    b = b || 0;
     return a - b;
-}else
-    return 0;
 };
